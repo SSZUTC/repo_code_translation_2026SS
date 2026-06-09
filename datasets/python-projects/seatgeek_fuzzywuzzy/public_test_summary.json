@@ -1,0 +1,53 @@
+{
+  "project_name": "seatgeek_fuzzywuzzy",
+  "language": "Python",
+  "test_results": {
+    "existing_tests_found": true,
+    "public_tests_generated": true,
+    "existing_tests_passed": true,
+    "public_tests_passed": true
+  },
+  "timestamp": "2025-06-23T20:23:35.027144",
+  "original_path": "/workspace/verified_repos_v2/Python/seatgeek_fuzzywuzzy",
+  "public_test_result_path": "/workspace/public_test_results/Python/seatgeek_fuzzywuzzy",
+  "original_tests": {
+    "test_files": [
+      "test_fuzzywuzzy_hypothesis.py",
+      "test_fuzzywuzzy_pytest.py",
+      "test_fuzzywuzzy.py",
+      "tests/test_utils_and_stringmatcher.py",
+      "tests/test_process_py.py"
+    ],
+    "test_scripts": [
+      "run_tests.sh"
+    ],
+    "total_original_test_files": 5,
+    "found_existing_tests": true
+  },
+  "public_tests": {
+    "test_files": [
+      "public_tests/test_public_fuzzywuzzy_pytest.py",
+      "public_tests/test_public_fuzzywuzzy.py",
+      "public_tests/test_public_fuzzywuzzy_hypothesis.py",
+      "public_tests/test_public_utils_and_stringmatcher.py",
+      "public_tests/test_public_process_py.py",
+      "run_public_tests.sh",
+      "run_public_tests.sh"
+    ],
+    "test_scripts": [
+      "run_public_tests.sh",
+      "run_public_tests.sh"
+    ],
+    "total_public_test_files": 7,
+    "generated_public_tests": true
+  },
+  "created_files": [
+    "public_tests/test_public_fuzzywuzzy_pytest.py",
+    "public_tests/test_public_fuzzywuzzy.py",
+    "public_tests/test_public_fuzzywuzzy_hypothesis.py",
+    "public_tests/test_public_utils_and_stringmatcher.py",
+    "public_tests/test_public_process_py.py",
+    "run_public_tests.sh",
+    "run_public_tests.sh"
+  ]
+}

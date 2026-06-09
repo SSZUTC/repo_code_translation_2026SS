@@ -1,0 +1,11 @@
+{
+  "project_name": "tdebatty_java-string-similarity",
+  "language": "Java",
+  "coverage": {
+    "line": 72.5,
+    "branch": 57.8
+  },
+  "timestamp": "2025-06-19T09:38:39.308487",
+  "original_path": "/workspace/runnable_filter/Java/tdebatty_java-string-similarity",
+  "test_result_path": "/workspace/test_enhancement_results/Java/tdebatty_java-string-similarity"
+}

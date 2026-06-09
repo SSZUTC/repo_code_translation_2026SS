@@ -1,0 +1,41 @@
+{
+  "project_name": "ali-bouali_one-to-one-chat-spring-boot-web-socket",
+  "language": "Java",
+  "test_results": {
+    "existing_tests_found": true,
+    "public_tests_generated": true,
+    "existing_tests_passed": true,
+    "public_tests_passed": true
+  },
+  "timestamp": "2025-06-23T20:12:33.837669",
+  "original_path": "/workspace/verified_repos_v2/Java/ali-bouali_one-to-one-chat-spring-boot-web-socket",
+  "public_test_result_path": "/workspace/public_test_results/Java/ali-bouali_one-to-one-chat-spring-boot-web-socket",
+  "original_tests": {
+    "test_files": [
+      "src/test/java/com/alibou/websocket/chatroom/ChatRoomServiceTest.java",
+      "src/test/java/com/alibou/websocket/chat/ChatControllerTest.java"
+    ],
+    "test_scripts": [
+      "run_tests.sh"
+    ],
+    "total_original_test_files": 2,
+    "found_existing_tests": true
+  },
+  "public_tests": {
+    "test_files": [
+      "src/test/java/com/alibou/websocket/chatroom/ChatRoomServicePublicTest.java",
+      "src/test/java/com/alibou/websocket/chat/ChatControllerPublicTest.java",
+      "run_public_tests.sh"
+    ],
+    "test_scripts": [
+      "run_public_tests.sh"
+    ],
+    "total_public_test_files": 3,
+    "generated_public_tests": true
+  },
+  "created_files": [
+    "src/test/java/com/alibou/websocket/chatroom/ChatRoomServicePublicTest.java",
+    "src/test/java/com/alibou/websocket/chat/ChatControllerPublicTest.java",
+    "run_public_tests.sh"
+  ]
+}

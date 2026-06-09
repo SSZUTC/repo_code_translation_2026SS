@@ -1,0 +1,66 @@
+{
+  "project_name": "tdebatty_java-string-similarity",
+  "language": "Java",
+  "test_results": {
+    "existing_tests_found": true,
+    "public_tests_generated": true,
+    "existing_tests_passed": true,
+    "public_tests_passed": true
+  },
+  "timestamp": "2025-06-25T15:04:31.873746",
+  "original_path": "/workspace/verified_repos_v2/Java/tdebatty_java-string-similarity",
+  "public_test_result_path": "/workspace/public_test_results/Java/tdebatty_java-string-similarity",
+  "original_tests": {
+    "test_files": [
+      "src/test/java/info/debatty/java/stringsimilarity/CosineTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/RatcliffObershelpMoreTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/LevenshteinTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/OptimalStringAlignmentTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/DamerauTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/MetricLCSTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/NormalizedLevenshteinTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/WeightedLevenshteinTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/LongestCommonSubsequenceTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/RatcliffObershelpTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/JaroWinklerTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/WeightedLevenshteinBranchTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/SorensenDiceTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/QGramTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/NGramTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/CharacterSubstitutionInterfaceTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/JaccardTest.java",
+      "src/test/java/info/debatty/java/stringsimilarity/experimental/Sift4Test.java"
+    ],
+    "test_scripts": [
+      "run_tests.sh"
+    ],
+    "total_original_test_files": 18,
+    "found_existing_tests": true
+  },
+  "public_tests": {
+    "test_files": [
+      "src/test_public/java/info/debatty/java/stringsimilarity/CosinePublicTest.java",
+      "src/test_public/java/info/debatty/java/stringsimilarity/RatcliffObershelpMorePublicTest.java",
+      "src/test_public/java/info/debatty/java/stringsimilarity/LevenshteinPublicTest.java",
+      "run_public_tests.sh",
+      "src/test_public/java/info/debatty/java/stringsimilarity/OptimalStringAlignmentPublicTest.java",
+      "src/test_public/java/info/debatty/java/stringsimilarity/MetricLCSPublicTest.java",
+      "src/test_public/java/info/debatty/java/stringsimilarity/NormalizedLevenshteinPublicTest.java"
+    ],
+    "test_scripts": [
+      "run_public_tests.sh"
+    ],
+    "total_public_test_files": 7,
+    "generated_public_tests": true
+  },
+  "created_files": [
+    "src/test_public/java/info/debatty/java/stringsimilarity/CosinePublicTest.java",
+    "src/test_public/java/info/debatty/java/stringsimilarity/RatcliffObershelpMorePublicTest.java",
+    "src/test_public/java/info/debatty/java/stringsimilarity/LevenshteinPublicTest.java",
+    "run_public_tests.sh",
+    "src/test_public/java/info/debatty/java/stringsimilarity/OptimalStringAlignmentPublicTest.java",
+    "src/test_public/java/info/debatty/java/stringsimilarity/MetricLCSPublicTest.java",
+    "src/test_public/java/info/debatty/java/stringsimilarity/NormalizedLevenshteinPublicTest.java",
+    "pom.xml"
+  ]
+}

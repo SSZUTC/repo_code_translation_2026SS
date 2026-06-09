@@ -1,0 +1,19 @@
+{
+  "project_name": "seatgeek_fuzzywuzzy",
+  "language": "Python",
+  "coverage": {
+    "line": 86.0,
+    "branch": 85.6
+  },
+  "timestamp": "2025-06-19T12:30:28.031700",
+  "original_path": "/workspace/runnable_filter/Python/seatgeek_fuzzywuzzy",
+  "test_result_path": "/workspace/test_enhancement_results/Python/seatgeek_fuzzywuzzy",
+  "tests_path": [
+    "test_fuzzywuzzy.py",
+    "test_fuzzywuzzy_hypothesis.py",
+    "test_fuzzywuzzy_pytest.py",
+    "tests/test_process_py.py",
+    "tests/test_utils_and_stringmatcher.py"
+  ],
+  "run_tests_path": "run_tests.sh"
+}

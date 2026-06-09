@@ -1,0 +1,17 @@
+{
+  "project_name": "ali-bouali_one-to-one-chat-spring-boot-web-socket",
+  "language": "Java",
+  "coverage": {
+    "line": 56.5,
+    "branch": 50.0
+  },
+  "timestamp": "2025-06-23T11:13:35.441104",
+  "original_path": "/workspace/runnable_filter/Java/ali-bouali_one-to-one-chat-spring-boot-web-socket",
+  "test_result_path": "/workspace/test_enhancement_results_plus/Java/ali-bouali_one-to-one-chat-spring-boot-web-socket",
+  "tests_path": [
+    "src/test/java/com/alibou/websocket/ChatApplicationTests.java",
+    "src/test/java/com/alibou/websocket/chatroom/ChatRoomServiceTest.java",
+    "src/test/java/com/alibou/websocket/chat/ChatControllerTest.java"
+  ],
+  "run_tests_path": "run_tests.sh"
+}

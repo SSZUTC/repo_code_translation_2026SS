@@ -1,0 +1,20 @@
+{
+  "project_name": "wroberts_pytimeparse",
+  "language": "Python",
+  "coverage": {
+    "line": 97.0,
+    "branch": 96.9
+  },
+  "timestamp": "2025-06-23T10:38:29.553586",
+  "original_path": "/workspace/test_enhancement_results/Python/wroberts_pytimeparse",
+  "test_result_path": "/workspace/test_enhancement_results_plus/Python/wroberts_pytimeparse",
+  "tests_path": [
+    "pytimeparse/tests/test_init.py",
+    "pytimeparse/tests/test_setup_py.py",
+    "pytimeparse/tests/test_timeparse_api.py",
+    "pytimeparse/tests/test_timeparse_comprehensive.py",
+    "pytimeparse/tests/test_timeparse_regexes.py",
+    "pytimeparse/tests/testtimeparse.py"
+  ],
+  "run_tests_path": "run_tests.sh"
+}
