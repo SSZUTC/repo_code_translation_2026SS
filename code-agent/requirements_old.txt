@@ -1,0 +1,16 @@
+# LangChain 相关依赖
+langchain==0.3.27
+langchain-core==0.3.79
+langchain-openai==0.3.35
+
+# HTTP 客户端
+requests==2.32.3
+
+# 环境变量
+python-dotenv==1.1.1
+
+# 类型检查
+typing-extensions==4.11.0
+
+# 日志
+colorlog==6.9.0

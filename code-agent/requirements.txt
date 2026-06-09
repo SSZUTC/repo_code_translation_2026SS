@@ -1,0 +1,68 @@
+# ---------- Pydantic / 数据校验（LangChain 的底层依赖） ----------
+annotated-types==0.7.0       # Pydantic 校验用的字段注解工具
+pydantic==2.9.2              # 数据模型与校验
+pydantic_core==2.23.4        # Pydantic 的 Rust 核心实现
+
+# ---------- LangChain 生态（Agent / 工具调用 / Prompt 模板） ----------
+langchain==0.3.27            # Agent 框架（ReAct / create_react_agent）
+langchain-core==0.3.79       # 核心：工具定义、Prompt 模板、runnable
+langchain-openai==0.3.35     # ChatOpenAI / OpenAI 模型接入
+langchain-text-splitters==0.3.11  # 长文本切分（分析大文件时用）
+
+# ---------- LangGraph（状态图，由 claudeCode 子 Agent 使用） ----------
+langgraph==1.0.1             # 状态图 / 图式 Agent
+langgraph-checkpoint==3.0.1  # LangGraph checkpoint
+langgraph-prebuilt==1.0.1    # LangGraph 预编译加速
+langgraph-sdk==0.2.15        # LangGraph 服务端 SDK
+
+# ---------- LLM 调用与日志 ----------
+openai==2.28.0               # OpenAI / OpenRouter 官方 SDK
+langsmith==0.8.9             # LangChain 的运行追踪 / 调试服务
+python-dotenv==1.1.1         # 读取 .env 文件里的 API Key
+colorlog==6.9.0              # 彩色日志输出（sweagent / claudeCode 使用）
+
+# ---------- 网络 / HTTP ----------
+httpx==0.28.1                # 异步 HTTP 客户端（LLM 调用走这个）
+httpcore==1.0.9              # httpx 的底层连接池
+h11==0.16.0                  # HTTP/1.1 协议实现
+requests==2.32.3             # 同步 HTTP 客户端
+requests-toolbelt==1.0.0     # requests 的文件上传 / multipart 工具
+urllib3==2.7.0               # requests 的底层连接池
+idna==3.18                   # 国际化域名解析
+certifi==2026.5.20           # CA 证书
+charset-normalizer==3.4.7    # 字符编码自动检测
+sniffio==1.3.1               # 自动识别 async 后端（asyncio / trio）
+anyio==4.13.0                # 统一的异步抽象层
+async-timeout==4.0.3         # 异步超时（旧 Python 兼容）
+websockets==16.0             # WebSocket 客户端
+
+# ---------- 数据处理（读取 test.json / parquet） ----------
+numpy==2.2.6                 # 数值计算基础库
+pandas==2.3.3                # 表格数据处理（读取 parquet / json）
+pyarrow==24.0.0              # parquet / arrow 格式读写
+regex==2026.5.9              # 增强版正则
+jiter==0.15.0                # JSON 快速迭代器（openai SDK 依赖）
+
+# ---------- 性能 / 序列化 ----------
+orjson==3.11.9               # 超高速 JSON 序列化
+ormsgpack==1.12.2            # messagepack 序列化（langgraph 用）
+xxhash==3.7.0                # 高速哈希（langgraph checkpoint）
+zstandard==0.25.0            # zstd 压缩（langgraph checkpoint）
+
+# ---------- 工具库 / 其它 ----------
+packaging==25.0              # 版本号解析
+python-dateutil==2.9.0.post0 # 日期运算
+pytz==2026.2                 # 时区处理
+tzdata==2026.2               # IANA 时区数据（非 Linux 平台需要）
+PyYAML==6.0.3                # YAML 配置读写
+tiktoken==0.13.0             # OpenAI tokenizer
+tqdm==4.67.3                 # 进度条
+tenacity==9.1.4              # 重试装饰器（LLM 调用失败自动重试）
+SQLAlchemy==2.0.50           # ORM / 数据库连接池（langgraph checkpoint 可选）
+jsonpatch==1.33              # JSON Patch 标准实现
+jsonpointer==3.1.1           # JSON 指针（按路径取值）
+exceptiongroup==1.3.1        # Python 3.10 对 ExceptionGroup 的 backport
+typing_extensions==4.11.0    # 新 typing 语法的 backport
+six==1.17.0                  # Py2/Py3 兼容库（一些旧依赖还在用）
+distro==1.9.0                # 识别 Linux 发行版信息（openai SDK 用）
+uuid_utils==0.16.0           # UUID 生成工具
